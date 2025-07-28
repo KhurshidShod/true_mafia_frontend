@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000", {
+const socket = io("https://true-mafia-backend.onrender.com/", {
   transports: ["websocket"],
   autoConnect: true,
 });
